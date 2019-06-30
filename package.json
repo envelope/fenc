@@ -19,7 +19,13 @@
   },
   "scripts": {
     "test": "jest",
-    "lint": "eslint lib test",
+    "lint": "eslint lib test examples",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "examples"
+    ]
   }
 }

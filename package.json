@@ -1,6 +1,7 @@
 {
   "name": "fenc",
   "version": "0.0.1",
+  "description": "Tiny authorization library for Node.js",
   "main": "lib/index.js",
   "license": "MIT",
   "author": "Anders Skouboe <mail@andersskouboe.net>",

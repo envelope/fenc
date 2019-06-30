@@ -4,6 +4,7 @@
   "main": "lib/index.js",
   "license": "MIT",
   "author": "Anders Skouboe <mail@andersskouboe.net>",
+  "repository": "envelope/fenc",
   "keywords": [
     "authorization"
   ],

@@ -14,5 +14,5 @@ npm install --save fenc
 
 Or by using [Yarn](https://yarnpkg.com/):
 ```sh
-yarn install fenc
+yarn add fenc
 ```

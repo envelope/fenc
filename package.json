@@ -1,0 +1,14 @@
+{
+  "name": "fenc",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint lib test"
+  }
+}

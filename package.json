@@ -1,8 +1,15 @@
 {
   "name": "fenc",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
+  "author": "Anders Skouboe <mail@andersskouboe.net>",
+  "keywords": [
+    "authorization"
+  ],
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "coveralls": "^3.0.4",
     "eslint": "^6.0.1",

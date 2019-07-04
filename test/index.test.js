@@ -38,4 +38,24 @@ describe('fenc', () => {
       expect(policy).toHaveProperty('context', context)
     })
   })
+
+  describe('use(plugin)', () => {
+    it('throws if given plugin is not a function', () => {
+      expect(() => fenc.use('plugin'))
+        .toThrow('Plugin must be a function.')
+    })
+
+    it('calls plugin with with the `fenc` module', () => {
+      const plugin = jest.fn()
+
+      fenc.use(plugin)
+
+      expect(plugin).toHaveBeenCalledTimes(1)
+      expect(plugin).toHaveBeenCalledWith(fenc)
+    })
+
+    it('returns fenc module', () => {
+      expect(fenc.use(jest.fn())).toBe(fenc)
+    })
+  })
 })
